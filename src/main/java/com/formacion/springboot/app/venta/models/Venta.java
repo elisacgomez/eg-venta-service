@@ -1,4 +1,4 @@
-package com.formacion.springboot.app.venta.models.dto;
+package com.formacion.springboot.app.venta.models;
 
 public class Venta {
 	
@@ -7,7 +7,7 @@ public class Venta {
 	
 	public Venta() {
 	}
-	public Venta(Integer cantidad, Libro libro) {
+	public Venta(Libro libro, Integer cantidad) {
 		this.cantidad = cantidad;
 		this.libro = libro;
 	}
