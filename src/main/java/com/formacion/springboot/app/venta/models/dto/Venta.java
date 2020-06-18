@@ -7,7 +7,7 @@ public class Venta {
 	
 	public Venta() {
 	}
-	public Venta(Integer cantidad, Libro libro) {
+	public Venta(Libro libro, Integer cantidad) {
 		this.cantidad = cantidad;
 		this.libro = libro;
 	}
