@@ -1,4 +1,4 @@
-package com.formacion.springboot.app.venta.models.dto;
+package com.formacion.springboot.app.venta.models;
 
 public class Libro {
 
@@ -7,7 +7,6 @@ public class Libro {
 	private String autor;
 	private String editorial;
 	private double valor;
-	private Integer port;
 	public long getId() {
 		return id;
 	}
@@ -38,13 +37,6 @@ public class Libro {
 	public void setValor(double valor) {
 		this.valor = valor;
 	}
-	public Integer getPort() {
-		return port;
-	}
-	public void setPort(Integer port) {
-		this.port = port;
-	}
-	
 	
 
 }

@@ -1,4 +1,4 @@
-package com.formacion.springboot.app.venta.models.dto;
+package com.formacion.springboot.app.venta.models;
 
 public class Venta {
 	
