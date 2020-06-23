@@ -2,7 +2,7 @@ package com.formacion.springboot.app.venta.service;
 
 import java.util.List;
 
-import com.formacion.springboot.app.venta.models.dto.Venta;
+import com.formacion.springboot.app.venta.models.Venta;
 
 public interface VentaService {
 
