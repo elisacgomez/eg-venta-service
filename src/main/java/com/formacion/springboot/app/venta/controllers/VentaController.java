@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.formacion.springboot.app.venta.models.dto.Venta;
+import com.formacion.springboot.app.venta.models.Venta;
 import com.formacion.springboot.app.venta.service.VentaService;
 
 @RestController
