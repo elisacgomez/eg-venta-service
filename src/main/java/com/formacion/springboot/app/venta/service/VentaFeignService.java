@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.formacion.springboot.app.venta.clients.LibroClienteRest;
+import com.formacion.springboot.app.venta.models.Libro;
 import com.formacion.springboot.app.venta.models.Venta;
 
 @Service("serviceFeign")
@@ -22,5 +23,23 @@ public class VentaFeignService implements VentaService {
 	@Override
 	public Venta findById(Long id, Integer cantidad) {
 		return new Venta(clienteFeign.obtenerLibro(id), cantidad);
+	}
+
+	@Override
+	public Libro save(Libro libro) {
+		
+		return clienteFeign.crearLibro(libro);
+	}
+
+	@Override
+	public Libro update(Libro libro, Long id) {
+		
+		return clienteFeign.actualizarLibro(libro, id);
+	}
+
+	@Override
+	public void delete(Long id) {
+		clienteFeign.eliminarLibro(id);
+		
 	}
 }
