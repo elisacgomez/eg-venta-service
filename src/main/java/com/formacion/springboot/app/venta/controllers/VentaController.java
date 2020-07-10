@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.formacion.springboot.app.venta.models.Libro;
+import com.formacion.springboot.app.common.models.entity.Libro;
 import com.formacion.springboot.app.venta.models.Venta;
 import com.formacion.springboot.app.venta.service.VentaService;
 

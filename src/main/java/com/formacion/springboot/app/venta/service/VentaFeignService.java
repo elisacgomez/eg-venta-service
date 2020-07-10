@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.formacion.springboot.app.venta.clients.LibroClienteRest;
-import com.formacion.springboot.app.venta.models.Libro;
+import com.formacion.springboot.app.common.models.entity.Libro;
 import com.formacion.springboot.app.venta.models.Venta;
 
 @Service("serviceFeign")

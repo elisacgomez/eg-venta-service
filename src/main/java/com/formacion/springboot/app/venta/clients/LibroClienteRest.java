@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.formacion.springboot.app.venta.models.Libro;
+import com.formacion.springboot.app.common.models.entity.Libro;
 
 @FeignClient(name = "servicio-libros")
 public interface LibroClienteRest {

@@ -1,5 +1,7 @@
 package com.formacion.springboot.app.venta.models;
 
+import com.formacion.springboot.app.common.models.entity.Libro;
+
 public class Venta {
 	
 	private Integer cantidad;

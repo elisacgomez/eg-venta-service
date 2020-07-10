@@ -39,3 +39,8 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+.attach_pid*
+.mvn/
+mvnw
+mvnw.cmd
+HELP.md
